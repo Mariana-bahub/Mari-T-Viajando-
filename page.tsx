@@ -1,14 +1,14 @@
 import CategoryPage from "@/components/CategoryPage";
-import { PlaneIcon } from "@/components/icons";
+import { TagIcon } from "@/components/icons";
 
-export const metadata = { title: "Passagens | Mari Tá Viajando" };
+export const metadata = { title: "Promoções | Mari Tá Viajando" };
 
-export default function Passagens() {
+export default function Promocoes() {
   return (
     <CategoryPage
-      title="Passagens"
-      description="Promoções e dicas para achar as passagens mais baratas."
-      icon={PlaneIcon}
+      title="Promoções"
+      description="As melhores ofertas de passagens, hospedagem e pacotes."
+      icon={TagIcon}
     />
   );
 }
