@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #0F1E45;
+  background: #FFFFFF;
+}
+
+@layer utilities {
+  .logo-script {
+    font-family: "Pacifico", "Brush Script MT", cursive;
+  }
+}
